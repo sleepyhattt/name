@@ -1,0 +1,327 @@
+body {
+
+background:url('https://raw.githack.com/sleepyhattt/name/af31c390ea869c67f92a27d9304b4b2c49945298/IMG_6576.JPG');
+
+height:4600px;
+
+}
+
+div#parallax-bg-1{
+
+	position: fixed;
+
+	width: 1200px;
+
+	top: 0;
+
+	left: 50%; 
+
+	margin-left: -600px; 
+
+	z-index: 1;
+
+}
+
+div#parallax-bg-2{
+
+	position: fixed;
+
+	width: 1200px;
+
+	top: 0;
+
+	left: 50%; 
+
+	margin-left: -600px; 
+
+	z-index: 2;
+
+}
+
+
+
+div#parallax-bg-3{
+
+	position: fixed;
+
+	width: 960px;
+
+	top: 0;
+
+	left: 50%; 
+
+	margin-left: -470px; 
+
+	z-index: 3;
+
+}
+
+div#parallax-bg-3 div{
+
+	background-repeat:no-repeat;
+
+	position:absolute;
+
+	display:block;
+
+	overflow:hidden;
+
+}
+
+div#bg-3-1{
+
+	background:url('https://raw.githack.com/sleepyhattt/name/af31c390ea869c67f92a27d9304b4b2c49945298/IMG_6578-no-bg-preview-carve.photos.png');
+
+	width:529px;
+
+	height:757px;
+
+	top:-100px;
+
+	right:100px;
+
+}
+
+div#bg-3-2{
+
+	background:url('https://raw.githack.com/sleepyhattt/name/af31c390ea869c67f92a27d9304b4b2c49945298/IMG_6578-no-bg-preview-carve.photos%202.png');
+
+	width:603px;
+
+	height:583px;
+
+	top:1050px;
+
+	right:70px;
+
+}
+
+div#bg-3-3{
+
+	background:url('https://raw.githack.com/sleepyhattt/name/af31c390ea869c67f92a27d9304b4b2c49945298/IMG_6578-no-bg-preview-carve.photos%203.png');
+
+	width:846px;
+
+	height:713px;
+
+	top:1800px;
+
+	right:140px;
+
+}
+
+div#bg-3-4{
+
+	background:url('https://raw.githack.com/sleepyhattt/name/af31c390ea869c67f92a27d9304b4b2c49945298/IMG_6578-no-bg-preview-carve.photos%204.png');
+
+	width:1104px;
+
+	height:684px;
+
+	top:2800px;
+
+	right:0px;
+
+} 
+
+div#parallax-bg-2 div{
+
+	background:url('https://raw.githack.com/sleepyhattt/name/f6039628d3b5db90d3b8450354fd9475501e9f3b/IMG_6578-no-bg-preview-carve.photos%208.png');
+
+	background-repeat:no-repeat;
+
+	position:absolute;
+
+	display:block;
+
+	width:488px;
+
+	height:438px;
+
+	overflow:hidden;
+
+}
+
+
+
+div#bg-2-1{
+
+	top:100px;
+
+	left:-310px;
+
+}
+
+div#bg-2-2{
+
+	top:270px;
+
+	right:-70px;
+
+}
+
+div#bg-2-3{
+
+	top:870px;
+
+	left:-300px;
+
+}
+
+div#bg-2-4{
+
+	top:1120px;
+
+	right:-130px;
+
+}
+
+div#bg-2-5{
+
+	top:1620px;
+
+	left:140px;
+
+}
+
+div#bg-2-6{
+
+	top:720px;
+
+	left:340px;
+
+}
+
+div#parallax-bg-1 div{
+
+	background-repeat:no-repeat;
+
+	position:absolute;
+
+	display:block;
+
+	width:488px;
+
+	height:538px;
+
+	overflow:hidden;
+
+}
+
+div#bg-1-1{
+
+	background:url('https://raw.githubusercontent.com/Dmitrykonn/locals/main/grass.png');
+
+	top:200px;
+
+	right:250px;
+
+}
+
+   
+
+div#bg-1-2{
+
+	background:url('https://raw.githack.com/sleepyhattt/name/f6039628d3b5db90d3b8450354fd9475501e9f3b/IMG_6578-no-bg-preview-carve.photos%206.png');
+
+	top:420px;
+
+	left:0px;
+
+}
+
+div#bg-1-3{
+
+	background:url('https://raw.githack.com/sleepyhattt/name/f6039628d3b5db90d3b8450354fd9475501e9f3b/IMG_6578-no-bg-preview-carve.photos%207.png');
+
+	top:850px;
+
+	right:-290px;
+
+}
+
+div#bg-1-4{
+
+	background:url('https://raw.githack.com/sleepyhattt/name/02c26d0807364099aaf3e7723b03bebf00101dcd/IMG_6578-no-bg-preview%20(carve.photos).png');
+
+	top:1350px;
+
+	left:200px;
+
+}
+
+div#bg-1-5{
+
+	background:url('https://raw.githack.com/sleepyhattt/name/02c26d0807364099aaf3e7723b03bebf00101dcd/IMG_6578%202-no-bg-preview%20(carve.photos).png');
+
+	top:1200px;
+
+	left:-200px;
+
+}
+
+.hh {
+
+  animation: hh 10s infinite;
+
+}
+
+@keyframes hh {
+
+  0% {
+
+    transform: translateY(0);
+
+  }
+
+  100% {
+
+    transform: translateY(410vh);
+
+  }
+
+}
+
+.uu {
+
+  animation: uu 8s infinite;
+
+}
+
+@keyframes uu {
+
+  0% {
+
+    transform: translateY(0);
+
+  }
+
+  100% {
+
+    transform: translateY(410vh);
+
+  }
+
+}
+
+.xx {
+
+  animation: xx 6s infinite;
+
+}
+
+@keyframes xx {
+
+  0% {
+
+    transform: translateY(0);
+
+  }
+
+  100% {
+
+    transform: translateY(410vh);
+
+  }
+
+}
